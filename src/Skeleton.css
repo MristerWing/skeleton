@@ -1,0 +1,35 @@
+@keyframes loading {
+	0% {
+		background-color: #f2f2f2;
+	}
+	50% {
+		background-color: #d2d2d2;
+	}
+	100% {
+		background-color: #f2f2f2;
+	}
+}
+
+.skeleton {
+	animation: loading 2s infinite;
+}
+
+.container.skeleton {
+}
+
+.tmnail.skeleton {
+	background-color: #f2f2f2;
+}
+
+.info-layer.skeleton {
+}
+
+.info-layer > .item.skeleton {
+	background-color: #f2f2f2;
+	width: 100px;
+	height: 25px;
+}
+
+.info-layer > .item.skeleton:last-child {
+	width: 195px;
+}
